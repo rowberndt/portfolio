@@ -16,12 +16,34 @@
         </ul>
     </nav>
     <main>
-        <h1 class="project-title">Project One</h1>
-        <div class="project-images">
-            <img src="https://via.placeholder.com/150" alt="Project One Image 1">
-            <img src="https://via.placeholder.com/150" alt="Project One Image 2">
-        </div>
-        <p>This is where you can describe Project One in detail. Add more paragraphs and images as needed to explain your project.</p>
-    </main>
+    <h1 class="project-title">F1 Machine Learning Project</h1>
+    <div class="project-images">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/320px-F1.svg.png" alt="F1 Logo" style="max-width:150px;">
+    </div>
+    <p>This project analyzes Formula 1 race data using Python, FastF1, pandas, and scikit-learn. The notebook loads race telemetry, processes lap data, and applies machine learning models to predict lap times and classify drivers.</p>
+    <h2>Key Features</h2>
+    <ul>
+        <li>Loads and processes F1 telemetry and lap data for the 2023 season</li>
+        <li>Performs data cleaning and feature engineering</li>
+        <li>Visualizes correlations with heatmaps</li>
+        <li>Applies multiple linear regression and KNN to predict lap times</li>
+        <li>Uses logistic regression to classify if a lap was driven by Max Verstappen</li>
+    </ul>
+    <h2>Sample Code</h2>
+    <pre><code>import fastf1
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+# Load and process race data, then apply ML models
+</code></pre>
+    <h2>Notebook</h2>
+    <p>See the full notebook for code and results: <code>f1MachineLearning.ipynb</code></p>
+    <h2>Example Output</h2>
+    <ul>
+        <li>Correlation heatmaps of lap features</li>
+        <li>Regression and classification model scores</li>
+    </ul>
+</main>
 </body>
 </html>
