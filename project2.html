@@ -16,32 +16,28 @@
         </ul>
     </nav>
     <main>
-    <h1 class="project-title">Time Tracker App</h1>
-    <div class="project-images">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Clock_font_awesome.svg/320px-Clock_font_awesome.svg.png" alt="Time Tracker Icon" style="max-width:150px;">
-    </div>
-    <p>This is a desktop application for tracking time spent on various activities, built with Python and PyQt6. It allows users to record time by category, visualize their time with pie and line charts, and save/load data from CSV files.</p>
-    <h2>Key Features</h2>
-    <ul>
-        <li>Track time by customizable categories</li>
-        <li>Pie chart visualization of daily time allocation</li>
-        <li>Line chart visualization of category trends over days</li>
-        <li>CSV-based data persistence</li>
-        <li>Simple, interactive PyQt6 GUI</li>
-    </ul>
-    <h2>Sample Code</h2>
-    <pre><code>from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QWidget, QPushButton, QLabel, QLineEdit, QComboBox, QScrollArea
 import matplotlib.pyplot as plt
 
 # ... see timeTracker.py for full implementation ...
 </code></pre>
+    <h1 class="project-title">Time Tracker App</h1>
+    <div class="project-images">
+        <img src="../pie_chart_template.png" alt="Pie chart of time spent per category" style="max-width:300px; margin-bottom: 1em;">
+        <img src="../line_chart_template.png" alt="Line chart of time trends" style="max-width:300px;">
+    </div>
+    <p>The Time Tracker App is a desktop application designed to help users monitor and analyze how they spend their time each day. With an intuitive interface, users can log time spent on various activities, visualize their daily and historical trends, and gain insights to improve productivity and balance.</p>
+    <h2>Key Features</h2>
+    <ul>
+        <li>Customizable categories for tracking any activity</li>
+        <li>Pie chart visualization of daily time allocation</li>
+        <li>Line chart visualization of trends over time</li>
+        <li>Persistent data storage using CSV files</li>
+        <li>Modern, user-friendly PyQt6 interface</li>
+    </ul>
+    <h2>Screenshot</h2>
+    <img src="../screenshot.png" alt="Time Tracker App Screenshot" style="max-width:600px; border:1px solid #ccc; margin:1em 0;">
     <h2>Source File</h2>
     <p>See the main logic in <code>timeTracker.py</code></p>
-    <h2>Example Output</h2>
-    <ul>
-        <li>Pie chart of time spent per category</li>
-        <li>Line chart of time trends</li>
-    </ul>
 </main>
 </body>
 </html>
